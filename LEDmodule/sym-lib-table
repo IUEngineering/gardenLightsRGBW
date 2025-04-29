@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LP5012_ledDriver")(type "KiCad")(uri "${KIPRJMOD}/libs/LP5012_ledDriver.kicad_sym")(options "")(descr ""))
+  (lib (name "LP5012RUK_ledDriver")(type "KiCad")(uri "${KIPRJMOD}/libs/LP5012RUK_ledDriver.kicad_sym")(options "")(descr ""))
+)

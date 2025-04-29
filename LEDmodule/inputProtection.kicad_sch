@@ -571,7 +571,11 @@
 			(uuid "ddf68400-0fc8-46c4-b73d-78ab621af62e")
 		)
 		(instances
-			(project ""
+			(project "LEDmodule"
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/de30fabf-10e9-42a9-b2ba-3955a129919c"
 					(reference "R?")
 					(unit 1)
@@ -650,7 +654,11 @@
 			(uuid "569e2654-eeb1-4e95-99d2-bd43f52d03a7")
 		)
 		(instances
-			(project ""
+			(project "LEDmodule"
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/de30fabf-10e9-42a9-b2ba-3955a129919c"
 					(reference "D?")
 					(unit 1)
