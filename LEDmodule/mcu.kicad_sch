@@ -494,6 +494,17 @@
 		)
 		(uuid "90d5fb68-e07a-408c-8414-7f1dbaac4655")
 	)
+	(hierarchical_label "LP5015_EN"
+		(shape output)
+		(at 147.32 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adca12e8-1d64-4981-ab47-29f535ee4e3b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 146.05 80.01 0)
@@ -504,7 +515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c37cd56-4747-40b7-8bc6-c8c56c5a3649")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 146.05 86.36 0)
 			(effects
 				(font
@@ -554,7 +565,7 @@
 		(instances
 			(project "LEDmodule"
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/ae29019f-e893-4856-ad54-7d13fdb497b0"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -570,7 +581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bb3484c-ae12-4d17-b810-3e85d82acb00")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 170.18 53.34 0)
 			(effects
 				(font
@@ -620,7 +631,7 @@
 		(instances
 			(project "LEDmodule"
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/ae29019f-e893-4856-ad54-7d13fdb497b0"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)

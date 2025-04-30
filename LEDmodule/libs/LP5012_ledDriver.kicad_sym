@@ -413,7 +413,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.143 1.143)
 						)
 					)
 				)
@@ -426,12 +426,12 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.78 90)
+				(at 0 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.143 1.143)
 						)
 					)
 				)

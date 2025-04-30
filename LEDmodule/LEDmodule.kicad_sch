@@ -177,17 +177,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: add EN signal from MCU"
-		(exclude_from_sim no)
-		(at 228.854 150.622 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d462953e-1bc3-4824-b82e-798e4b5a331b")
-	)
 	(junction
 		(at 101.6 82.55)
 		(diameter 0)
@@ -234,7 +223,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 127) (xy 241.3 127)
+			(xy 215.9 125.73) (xy 241.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -281,17 +270,6 @@
 			(type default)
 		)
 		(uuid "4855911e-a841-4246-9c43-67dcefe44737")
-	)
-	(polyline
-		(pts
-			(xy 227.33 129.54) (xy 227.33 148.59)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(uuid "4ad0de14-d552-41b5-976d-8cc5016fe66a")
 	)
 	(wire
 		(pts
@@ -425,6 +403,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 129.54) (xy 241.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf235477-6787-4d8d-a8a0-8c3b10708df7")
+	)
+	(wire
+		(pts
 			(xy 101.6 82.55) (xy 101.6 120.65)
 		)
 		(stroke
@@ -484,7 +472,7 @@
 		(uuid "f5efa621-f9f8-4aeb-b397-642115196c72")
 	)
 	(label "I2C{SCL SDA}"
-		(at 234.95 127 180)
+		(at 234.95 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -840,8 +828,18 @@
 			)
 		)
 		(pin "I2C" bidirectional
-			(at 215.9 127 0)
+			(at 215.9 125.73 0)
 			(uuid "2c7c0d5a-fb18-4e61-bf51-9d28cb39d1b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LP5015_EN" output
+			(at 215.9 129.54 0)
+			(uuid "caf085b2-0266-4985-8914-5366d56a9a86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,8 +890,18 @@
 			)
 		)
 		(pin "I2C" bidirectional
-			(at 241.3 127 180)
+			(at 241.3 125.73 180)
 			(uuid "065f3930-95b7-4a0d-b5f9-ddeda426d376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LP5015_EN" input
+			(at 241.3 129.54 180)
+			(uuid "6bf73e3d-c0a5-4e79-b890-b7b2bd29ab09")
 			(effects
 				(font
 					(size 1.27 1.27)
