@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "LP5012_ledDriver")(type "KiCad")(uri "${KIPRJMOD}/libs/LP5012_ledDriver.kicad_sym")(options "")(descr ""))
   (lib (name "LP5012RUK_ledDriver")(type "KiCad")(uri "${KIPRJMOD}/libs/LP5012RUK_ledDriver.kicad_sym")(options "")(descr ""))
-  (lib (name "LED_RGBW_GW-J9LHS2-4M")(type "KiCad")(uri "${KIPRJMOD}/libs/LED_RGBW_GW-J9LHS2-4M.kicad_sym")(options "")(descr ""))
+  (lib (name "LV3842")(type "KiCad")(uri "${KIPRJMOD}/libs/LV3842.kicad_sym")(options "")(descr ""))
 )
