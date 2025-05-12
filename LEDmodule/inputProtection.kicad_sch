@@ -286,6 +286,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "pulse proof"
+		(exclude_from_sim no)
+		(at 82.296 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "258e536d-1bac-4152-8535-0a0f3c435645")
+	)
 	(junction
 		(at 101.6 50.8)
 		(diameter 0)
@@ -307,6 +317,16 @@
 			(type default)
 		)
 		(uuid "024e3f81-94d5-4216-8025-f96c45442b72")
+	)
+	(polyline
+		(pts
+			(xy 76.2 64.77) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f915000-d683-461b-b089-8500cbcf4e35")
 	)
 	(wire
 		(pts
@@ -358,6 +378,66 @@
 		)
 		(uuid "5e9b0659-36e7-4019-ab6d-b42673428d2c")
 	)
+	(polyline
+		(pts
+			(xy 76.2 43.18) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "7d1e8903-2817-4927-a9f6-eb6bcc012847")
+	)
+	(polyline
+		(pts
+			(xy 76.2 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985efd27-32b4-4acb-93e8-0155fc24ae8c")
+	)
+	(polyline
+		(pts
+			(xy 88.9 43.18) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a008bc3d-3ff7-49c9-9a3b-b33d82b05751")
+	)
+	(polyline
+		(pts
+			(xy 88.9 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ac7808-723e-4f17-9b47-3563a665c7b3")
+	)
+	(polyline
+		(pts
+			(xy 76.2 41.91) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b199e097-0503-4c9b-be10-d67c78f13d0f")
+	)
+	(polyline
+		(pts
+			(xy 88.9 66.04) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2719f9b-fe7f-451e-b0f8-8c81c8dd656b")
+	)
 	(wire
 		(pts
 			(xy 101.6 63.5) (xy 86.36 63.5)
@@ -377,6 +457,16 @@
 			(type default)
 		)
 		(uuid "d45cd78d-ddff-429e-928e-0f72cc14acaa")
+	)
+	(polyline
+		(pts
+			(xy 88.9 43.18) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(uuid "eb7f0c29-3833-400b-9dba-021178095f50")
 	)
 	(hierarchical_label "unp1"
 		(shape bidirectional)
@@ -431,7 +521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6365b6d5-9eb9-4753-bbcb-294bc3a026f9")
-		(property "Reference" "R?"
+		(property "Reference" "R"
 			(at 82.55 44.45 90)
 			(effects
 				(font
@@ -484,19 +574,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5ec5e9e2-f6d4-4378-aa2e-7a2e76f2932f")
+			(uuid "604a853e-18dd-46c0-96ef-309c37e2d448")
 		)
 		(pin "1"
-			(uuid "0d470bd2-1b80-49d3-bd14-dfd90bac9d3e")
+			(uuid "1ef2648f-a034-48a3-9630-aa771b5e1a47")
 		)
 		(instances
-			(project ""
-				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/de30fabf-10e9-42a9-b2ba-3955a129919c"
-					(reference "R?")
+			(project "LEDmodule"
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/d8bd32c1-f910-4768-9cf7-baf1358c7526"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -565,15 +651,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c224eb5f-4662-44e3-a691-b40fcda26eec")
+			(uuid "2a6a8c1a-2822-4a07-8ad4-43597400518e")
 		)
 		(pin "2"
-			(uuid "ddf68400-0fc8-46c4-b73d-78ab621af62e")
+			(uuid "3a6e9490-eec7-4e7e-8b52-227eefa4958f")
 		)
 		(instances
 			(project "LEDmodule"
-				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5"
-					(reference "R?")
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/d8bd32c1-f910-4768-9cf7-baf1358c7526"
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/de30fabf-10e9-42a9-b2ba-3955a129919c"
@@ -590,7 +676,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9d239ddc-ceab-4df8-959c-ef43cd273541")
 		(property "Reference" "D?"
@@ -648,15 +734,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1f5e53b0-0884-4d74-ac1c-a0f35e18ab93")
+			(uuid "e17cbe6d-051d-45b0-b769-2e615ef9951a")
 		)
 		(pin "2"
-			(uuid "569e2654-eeb1-4e95-99d2-bd43f52d03a7")
+			(uuid "33bef671-193b-46bb-b2d7-b162098caf3d")
 		)
 		(instances
 			(project "LEDmodule"
-				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5"
-					(reference "D?")
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/d8bd32c1-f910-4768-9cf7-baf1358c7526"
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b/de30fabf-10e9-42a9-b2ba-3955a129919c"

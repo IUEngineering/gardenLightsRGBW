@@ -184,22 +184,22 @@
 		(uuid "207e374b-8440-4ccb-9f9f-10bdc755f037")
 	)
 	(junction
-		(at 101.6 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62bdbcda-8cad-4ddd-9094-ef9a53d9391e")
-	)
-	(junction
 		(at 88.9 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee8799f-1b4d-4f55-b427-fe3c0f0372be")
 	)
 	(junction
-		(at 88.9 133.35)
+		(at 88.9 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "efe565d5-10d4-4ff6-af32-adcf1494c89f")
+		(uuid "7830697d-956a-4dbb-b4e1-d86209f7863a")
+	)
+	(junction
+		(at 101.6 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93f7a19a-1dfd-486a-bc8c-03ede9352da9")
 	)
 	(wire
 		(pts
@@ -213,13 +213,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 125.73) (xy 31.75 125.73)
+			(xy 101.6 115.57) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16580bd7-809c-4e63-b0b3-e4a00fe02726")
+		(uuid "142888ff-6e82-43bd-9a34-0d6168456f53")
 	)
 	(bus
 		(pts
@@ -233,13 +233,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 125.73) (xy 31.75 121.92)
+			(xy 76.2 115.57) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22a40597-ec39-46a6-be26-63137d405411")
+		(uuid "1ed64da6-e1bb-4567-8532-d43b40de2cee")
 	)
 	(wire
 		(pts
@@ -253,13 +253,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 38.1 121.92)
+			(xy 25.4 120.65) (xy 31.75 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33821c9e-5e02-41d8-9f57-ce405107c472")
+		(uuid "3e897505-4c5f-45ef-8e0a-38ac5e66cf77")
 	)
 	(wire
 		(pts
@@ -323,6 +323,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 128.27) (xy 88.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72294342-d0fa-4551-95b0-e8460ac140ac")
+	)
+	(wire
+		(pts
 			(xy 88.9 44.45) (xy 88.9 95.25)
 		)
 		(stroke
@@ -333,13 +343,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 133.35) (xy 76.2 133.35)
+			(xy 31.75 115.57) (xy 31.75 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9b3764-c331-4142-bfe8-5daa53d7e29c")
+		(uuid "7966fe4b-1a3b-4ba9-8a88-d6caea0e18fd")
+	)
+	(wire
+		(pts
+			(xy 31.75 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8162a3a2-3dbd-4948-802a-4e062d935124")
 	)
 	(wire
 		(pts
@@ -373,16 +393,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 101.6 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13ba999-9c64-45b2-ada4-7bab0e2798a7")
-	)
-	(wire
-		(pts
 			(xy 31.75 90.17) (xy 31.75 95.25)
 		)
 		(stroke
@@ -413,13 +423,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 101.6 120.65)
+			(xy 101.6 82.55) (xy 101.6 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c27af85a-b9e8-4b55-a4ed-bdd052cf482f")
+	)
+	(wire
+		(pts
+			(xy 25.4 123.19) (xy 31.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb827b3f-1547-4bcb-b9a0-f21e95e08f97")
 	)
 	(wire
 		(pts
@@ -433,43 +453,43 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 38.1 133.35)
+			(xy 31.75 128.27) (xy 38.1 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d28d2372-20a9-46b9-923a-9d65e7e7e8a5")
+		(uuid "d62ee2b0-af88-479c-acce-9e00b71e4a79")
 	)
 	(wire
 		(pts
-			(xy 31.75 128.27) (xy 31.75 133.35)
+			(xy 31.75 123.19) (xy 31.75 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d502adae-403f-464b-b8aa-5ff8d7c81efd")
+		(uuid "d8d204ce-32e3-4e0a-9c00-92f83a9f6857")
 	)
 	(wire
 		(pts
-			(xy 88.9 95.25) (xy 88.9 133.35)
+			(xy 76.2 128.27) (xy 88.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e226f157-3081-4cd4-84bd-3524da269064")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 88.9 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e41a458d-86cb-4240-9f23-a6bc2768c983")
-	)
-	(wire
-		(pts
-			(xy 25.4 128.27) (xy 31.75 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5efa621-f9f8-4aeb-b397-642115196c72")
 	)
 	(label "I2C{SCL SDA}"
 		(at 234.95 125.73 180)
@@ -562,7 +582,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 20.32 125.73 0)
+		(at 20.32 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -570,9 +590,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ffc4ad0c-9769-48c5-8b63-e60c7909bb75")
-		(property "Reference" "J?"
-			(at 20.955 120.65 0)
+		(uuid "6b1975e2-af0c-45b4-a4d4-06fa706c5ba6")
+		(property "Reference" "J1"
+			(at 20.955 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +600,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 20.955 123.19 0)
+			(at 20.955 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 125.73 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 125.73 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +626,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 125.73 0)
+			(at 20.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,99 +634,17 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1490f200-20a2-4a23-8c64-1490d16bdb53")
-		)
 		(pin "1"
-			(uuid "a1299d6a-ceb4-4a46-be7d-58c518fa1f82")
+			(uuid "412d4b46-4af9-46cb-afe4-1105b75a0728")
 		)
-		(instances
-			(project ""
-				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 38.1 114.3)
-		(size 38.1 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3efb1bee-6b1f-4b36-9b32-ee6b0c8a5df5")
-		(property "Sheetname" "input protection 2"
-			(at 38.1 113.5884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "inputProtection.kicad_sch"
-			(at 38.1 140.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "prot1" bidirectional
-			(at 76.2 120.65 0)
-			(uuid "0a717f3c-c8dc-43dc-b9ed-366993515fd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "prot2" bidirectional
-			(at 76.2 133.35 0)
-			(uuid "00a79de1-61af-4f16-b0e8-6dd22530b30c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "unp1" bidirectional
-			(at 38.1 121.92 180)
-			(uuid "7c99a164-715a-46ec-b32f-ff28233b57dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "unp2" bidirectional
-			(at 38.1 133.35 180)
-			(uuid "d8cb9520-51e2-4f27-8c5b-748bb00cce40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(pin "2"
+			(uuid "90498f48-52a1-4321-83e4-c3415a41fd40")
 		)
 		(instances
 			(project "LEDmodule"
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b"
-					(page "7")
+					(reference "J1")
+					(unit 1)
 				)
 			)
 		)
@@ -799,7 +737,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ae29019f-e893-4856-ad54-7d13fdb497b0")
-		(property "Sheetname" "mcu (attiny202)"
+		(property "Sheetname" "mcu"
 			(at 177.8 113.5884 0)
 			(effects
 				(font
@@ -975,6 +913,88 @@
 			(project "LEDmodule"
 				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 109.22)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8bd32c1-f910-4768-9cf7-baf1358c7526")
+		(property "Sheetname" "input protection 2"
+			(at 38.1 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputProtection.kicad_sch"
+			(at 38.1 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "prot1" bidirectional
+			(at 76.2 115.57 0)
+			(uuid "90dec8ab-d937-4892-b83d-1f0fa60581d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "prot2" bidirectional
+			(at 76.2 128.27 0)
+			(uuid "a88ab9c1-1ad9-49f9-b25f-eca2a1fda4d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "unp1" bidirectional
+			(at 38.1 115.57 180)
+			(uuid "13bade2f-327e-45f4-9ab1-acba3843584a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "unp2" bidirectional
+			(at 38.1 128.27 180)
+			(uuid "a62d29b0-ab4a-4dae-8f5a-d3d5734a1214")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LEDmodule"
+				(path "/80a08b48-2579-42cd-b65f-533f20aa7c1b"
+					(page "7")
 				)
 			)
 		)

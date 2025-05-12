@@ -1004,7 +1004,7 @@
 	)
 	(text "output capacitance max ESR is 143 Ohm"
 		(exclude_from_sim no)
-		(at 113.538 149.606 0)
+		(at 115.824 145.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 	)
 	(text "Minimal output capacitance based on ripple = 800n"
 		(exclude_from_sim no)
-		(at 114.808 153.924 0)
+		(at 117.094 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 	)
 	(text "Minimal output capacitance based on under/overshoot = 6u2"
 		(exclude_from_sim no)
-		(at 113.538 159.766 0)
+		(at 115.824 155.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
